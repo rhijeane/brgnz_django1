@@ -1,0 +1,49 @@
+body{
+    background-image: url(images/bg.png);
+    background-size: auto;
+}
+#logo{
+    position: fixed;
+    top: 20%;
+    left: 12%;
+    z-index: 1;
+}
+.box{
+    position: fixed;
+    height: 70px;
+    width: 738.1px;
+    top: 330px;
+    left: 350px;
+    background: #bf000c;
+    z-index: -1;
+}
+@font-face{
+    font-family: remitext;
+    src: url(fonts/VanillaExtractRegular.ttf);
+}
+#RemiCharm{
+    font-family: "remitext";
+    text-align: center;
+    position: fixed;
+    margin-top: 250px;
+    margin-left: 575px;
+    font-size: 80px;
+    color: #fef823;
+    -webkit-text-stroke: 1px #bf000c;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    overflow: hidden;
+}
+#whoami{
+    font-family: "remitext";
+    text-align: center;
+    position: fixed;
+    margin-top: 350px;
+    margin-left: 600px;
+    font-size: 45px;
+    color: #fef823;
+    -webkit-text-stroke: 1px #bf000c;
+    -webkit-transition: 1s ease-out;
+}
+#whoami:hover{
+	color: #4c000d;
+}
